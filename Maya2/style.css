@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: justify;
+}
+#segmento_rectilineo{
+    width: 500px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.simbolos{
+    height: 200px;
+}
+
+.group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+footer{
+    color: black;
+    margin-left: 18%;
+    font-size: 16pt;
+}
+
+#page{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+header > h1{
+    background: blueviolet;
+    margin-top: 10px;
+    font-size: 40px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+}
+
+body{
+    background-image: url("../images/No.jpeg");
+}
+
+ol{
+    margin-left: 34px;
+    margin-bottom: 20px;
+}
+li{
+    margin-left: 15px;
+    list-style: lower-latin;
+    list-style-type: lower-alpha;
+}
+
+#plano{
+    text-align: center;
+    margin-bottom: 20px;
+    height: 250px;
+}
+
+#nav {
+    float: left;
+    width: 17%;
+    background-color: brown;
+    margin-top: 25px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+    padding: 10px;
+}
+ 
+#img-2{
+    text-align: center;
+    height: 300px;
+}
+
+.segmento{
+    border-top: 2px solid black;
+ 
+}
+.roman{
+    font: optional;
+}
+
+#container{
+    width: 82%;
+    margin-left: 18%;
+    padding: 20px;
+    background-color: orange;
+    margin-top: 25px;
+    box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.9);
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+#ejemplo{
+    margin-left: 24px;
+}
+#descartes{
+    height: 140px;
+    float: left;
+    margin-right: 10px;
+    margin-top: auto;
+    transition: all 0.8s;
+}
+#descartes:hover{
+    transform: scale(1.2);
+}
+figure{
+    text-align: center;
+}
+p{
+    margin-bottom: 5px;
+}
+
+#nav > p{
+    text-align: center;
+}
+
+img{border-style: double;
+    transition: all 0.8s
+    }
+    img:hover{
+        transform: scale(0.8);
+    }

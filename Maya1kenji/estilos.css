@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: justify;
+}
+img{
+    transition: all 0.8s;
+}
+img :hover{
+    transform: scale(1.5);
+}
+.group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+#page{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+header > h1{
+    background: rgb(218, 198, 168);
+    margin-top: 10px;
+    font-size: 40px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+}
+
+body{
+    background-color: rgb(121, 58, 30);
+}
+
+ol{
+    margin-left: 34px;
+    margin-bottom: 20px;
+}
+li{
+    margin-left: 15px;
+    list-style: lower-latin;
+    list-style-type: lower-alpha;
+}
+
+#plano{
+    text-align: center;
+    margin-bottom: 20px;
+    height: 250px;
+}
+ 
+#img-2{
+    text-align: center;
+    height: 300px;
+}
+
+
+.roman{
+    font: optional;
+}
+
+#container{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 20px;
+    background-color: rgb(218, 198, 168);
+    margin-top: 25px;
+    box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.9);
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+figure{
+    text-align: center;
+    transition: all 0.8s;
+}
+
+figure :hover{
+    transform: scale(0.8);
+}
+p{
+    margin-bottom: 5px;
+}
+
